@@ -294,14 +294,6 @@ curl http://localhost:11434
 
 ---
 
-## 📚 Documentation
-
-- [**Complete Integration Guide**](./COMPLETE_INTEGRATION_GUIDE.md) - Detailed integration steps
-- [**Production Status**](./PRODUCTION_STATUS.md) - Feature checklist
-- [**Project Overview**](./PROJECT_OVERVIEW.md) - Architecture overview
-
----
-
 ## 🚀 Deployment
 
 ### Production Checklist
