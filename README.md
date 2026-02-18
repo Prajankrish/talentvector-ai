@@ -716,15 +716,6 @@ git commit -m "feat: description of change"
 git push origin feat/feature-name
 ```
 
-### Commit Message Format
-- `feat:` - New features
-- `fix:` - Bug fixes  
-- `refactor:` - Code restructuring
-- `docs:` - Documentation updates
-- `style:` - Code style changes
-- `test:` - Test additions
-- `chore:` - Dependency updates, build config
-
 **Example Commit**:
 ```
 feat: add PDF timeout error handling
@@ -734,20 +725,13 @@ feat: add PDF timeout error handling
 - Add graceful LLM fallback for slow models
 - Log timeout details for debugging
 ```
+**Platform Reference**:
+<img width="1919" height="955" alt="image" src="https://github.com/user-attachments/assets/5f6ae447-dcce-45a1-b1a7-000cf010f86b" />
+<img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/7b908925-3cfe-4c6b-876b-b8bfa6ffd67a" />
+<img width="1917" height="927" alt="image" src="https://github.com/user-attachments/assets/597246a0-168c-4e23-ac61-1e7b5a47bdac" />
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/3df61511-691f-44ce-a848-fc755f0b8629" />
 
-### Code Quality Standards
-- Follow PEP 8 (Python) and ESLint (JavaScript)
-- Document complex logic with comments
-- Add type hints where applicable
-- Test changes before pushing
-- Update README for new features
 
-## Security Notes
-
-1. **Never commit `.env` file** - It contains sensitive API keys
-2. **API Keys**: Manage API keys securely using environment variables
-3. **Database**: Feedback database contains hiring-related data, keep it secure
-4. **Logs**: May contain sensitive information, restrict log access
 
 ## Future Enhancements
 
@@ -780,15 +764,4 @@ feat: add PDF timeout error handling
 
 MIT License - See LICENSE file for details
 
-## Support
 
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review error logs (check console for LOG_LEVEL=DEBUG output)
-3. Open an issue on the project repository
-4. Contact the development team
-
----
-
-**Built with ❤️ for modern recruiting**
-**TalentVector AI - Powered by Google Gemini**
