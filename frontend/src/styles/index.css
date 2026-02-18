@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-card {
+    @apply bg-slate-900/40 backdrop-blur-md border border-slate-700/30 rounded-xl;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:bg-slate-800/50 hover:border-slate-600/50 transition-all duration-300;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-purple-500/50;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 rounded-lg border border-slate-600 text-slate-200 font-semibold hover:bg-slate-800 transition-all duration-300;
+  }
+
+  .badge {
+    @apply inline-block px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-success {
+    @apply badge bg-emerald-900/40 text-emerald-300 border border-emerald-700/30;
+  }
+
+  .badge-warning {
+    @apply badge bg-amber-900/40 text-amber-300 border border-amber-700/30;
+  }
+
+  .badge-danger {
+    @apply badge bg-red-900/40 text-red-300 border border-red-700/30;
+  }
+
+  .skill-tag {
+    @apply inline-block px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-cyan-300 border border-cyan-700/30 hover:border-cyan-500/50 transition-all duration-200;
+  }
+}
+
+* {
+  @apply transition-colors duration-200;
+}
