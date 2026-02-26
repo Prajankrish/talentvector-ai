@@ -1,4 +1,4 @@
-# 🚀 TalentVector AI
+#  TalentVector AI
 
 ## Professional AI-Powered Recruiting Platform
 
@@ -6,7 +6,7 @@ Transform talent acquisition with AI-driven resume parsing, intelligent job prof
 
 ---
 
-## 📋 Problem Statement
+##  Problem Statement
 
 **Challenge**: Traditional recruiting processes are time-consuming and inefficient. Companies struggle to:
 - Parse and structure resume data from multiple formats
@@ -19,40 +19,40 @@ Transform talent acquisition with AI-driven resume parsing, intelligent job prof
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🔐 **Hiring Manager Authentication**
+###  **Hiring Manager Authentication**
 - Professional login/signup system
 - Company context tracking
 - Session management
 - Secure access control
 
-### 📄 **Resume Intelligence**
+###  **Resume Intelligence**
 - PDF/DOCX/TXT file upload
 - Automatic text extraction (pdfjs-dist)
 - AI-powered candidate profile extraction
 - Structured data: name, email, skills, experience
 
-### 💼 **Job Intelligence**
+###  **Job Intelligence**
 - Job description analysis
 - Hiring profile auto-generation
 - Ideal candidate description
 - Screening question suggestions
 
-### 🎯 **Smart Matching**
+###  **Smart Matching**
 - Semantic similarity scoring
 - Skill compatibility analysis
 - Experience level alignment
 - Cultural fit assessment
 - Recommendation system
 
-### ❓ **AI Screening**
+###  **AI Screening**
 - Role-specific question generation
 - Candidate answer evaluation
 - Response quality scoring
 - Interview insights
 
-### 📈 **Feedback Learning**
+###  **Feedback Learning**
 - Decision recording (Fit/Not Fit)
 - Model improvement
 - Feedback tracking
@@ -83,7 +83,7 @@ Transform talent acquisition with AI-driven resume parsing, intelligent job prof
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Node.js** 16+ with npm 8+
@@ -180,7 +180,7 @@ Result: System learns from decision
 
 ---
 
-## 📊 Project Structure
+##  Project Structure
 
 ```
 talentvector/
@@ -216,7 +216,7 @@ talentvector/
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Test the System
 ```
@@ -294,7 +294,7 @@ curl http://localhost:11434
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Checklist
 - [ ] Test end-to-end workflow
@@ -314,7 +314,7 @@ docker run -p 5173:5173 -p 8000:8000 talentvector-ai
 
 ---
 
-## 🎉 Ready to Transform Your Recruiting?
+##  Ready to Transform Your Recruiting?
 
 Start using TalentVector AI today!
 
@@ -330,7 +330,7 @@ Then visit: **http://localhost:5173**
 
 ---
 
-**Status**: 🚀 Production MVP Ready | **Version**: 1.0.0
+**Status**:  Production MVP Ready | **Version**: 1.0.0
 
 ### 2. Create a virtual environment
 ```bash
@@ -372,7 +372,7 @@ MAX_RETRIES=3
 REQUEST_TIMEOUT=30
 ```
 
-**⚠️ Important**: Never commit your `.env` file to version control. It contains sensitive API keys.
+** Important**: Never commit your `.env` file to version control. It contains sensitive API keys.
 
 ## Running the Application
 
@@ -563,20 +563,7 @@ Logs include:
 - Weight adjustments
 - Error details with context
 
-## Features
 
-✅ Multi-format resume parsing (PDF, DOCX, TXT, MD)
-✅ AI-powered skill and experience extraction
-✅ Intelligent candidate screening
-✅ Vector-based job matching
-✅ Performance metrics and feedback loop
-✅ SQLite data persistence
-✅ REST API with full documentation
-✅ Interactive web dashboard
-✅ Dynamic weight adjustment via reinforcement learning
-✅ Comprehensive error handling and logging
-✅ Environment-based configuration
-✅ Modular, reusable code architecture
 
 ## Configuration
 
@@ -604,7 +591,7 @@ SQLite databases are automatically created on first initialization:
 
 ---
 
-## 🤖 Responsible AI & Safeguards
+##  Responsible AI & Safeguards
 
 ### AI Hallucination Prevention
 - **Output Validation**: All LLM responses are validated against structured prompts
